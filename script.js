@@ -48,6 +48,7 @@ copyBtn.addEventListener('click', () => {
     const hex = hexText.textContent;
 
     navigator.clipboard.writeText(hex)
+    
     copyBtn.textContent = 'Copied!';
     copyBtn.style.backgroundColor = hex;
 });
