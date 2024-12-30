@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19rem 0;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;    
+}
+
+.hex, .rgb {
+    font-size: 3rem;
+}
+
+.btn-wrapper {
+    display: flex;
+    gap: 50px; 
+}
+
+.changeBtn, .copyBtn {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #f9f9f9;
+    border-radius: 0.2rem;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+    box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.2), 0 0 15px rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+}
+
+.changeBtn:hover, .copyBtn:hover {
+    background-color: #444;
+    transform: scale(0.97);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
+}
+
+
+
