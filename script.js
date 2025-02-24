@@ -51,9 +51,9 @@ copyBtn.addEventListener('click', () => {
     
     copyBtn.textContent = 'Copied!';
     copyBtn.style.backgroundColor = hex;
-});
 
-copyBtn.addEventListener('mouseout', () => {
-    copyBtn.textContent = 'Click to copy color!';
-    copyBtn.style.backgroundColor = ''
+    setTimeout(() => {
+        copyBtn.textContent = 'Click to copy color!';
+        copyBtn.style.backgroundColor = '';
+    }, 1500);
 });
